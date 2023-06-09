@@ -13,6 +13,7 @@ const resolvers = require('./graphql/resolvers')
 
 // app.use(bodyParser.json())
 
+// setting up an apollo server for using graphql
 const server = new ApolloServer({
     typeDefs: typeDefs,
     resolvers: resolvers,
